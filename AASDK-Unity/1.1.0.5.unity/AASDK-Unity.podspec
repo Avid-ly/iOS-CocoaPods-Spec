@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AASDK-Unity'
-  s.version          = '1.1.0.5'
+  s.version          = '1.1.0.6'
   s.summary          = 'AASDK 1.1.0.5'
 
 # This description is used to generate tags and improve search results.
