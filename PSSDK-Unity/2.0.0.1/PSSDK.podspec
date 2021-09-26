@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'PSSDK'
+  s.name             = 'PSSDK-Unity'
   s.version          = '2.0.0.1'
   s.summary          = 'PSSDK 2.0.0.1'
 
