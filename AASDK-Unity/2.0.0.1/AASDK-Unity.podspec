@@ -29,7 +29,7 @@ AccountSDK Unity 2.0.0.1
   s.resources = "Framework/AASDK/AASAccountSDK.bundle"
 
   s.subspec 'FBSDKLoginKit' do |facebook|
-  facebook.dependency 'FBSDKLoginKit', '11.1.0'
+  facebook.dependency 'FBSDKLoginKit', '12.1.0'
   end
 
   s.subspec 'GoogleSignIn' do |google|
