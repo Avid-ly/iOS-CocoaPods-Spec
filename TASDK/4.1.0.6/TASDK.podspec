@@ -16,7 +16,7 @@ TraceAnalysisSDK 4.1.0.6
   s.homepage         = 'https://guojunliu.github.io'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { "steve" => "909476821@qq.com" }
-  s.source           = { :git => 'https://github.com/Avid-ly/Avidly-iOS-TASDK-CocoaPods.git', :tag => s.version }
+  s.source           = { :git => 'https://github.com/Avid-ly/iOS-TASDK-CocoaPods.git', :tag => s.version }
 
   s.ios.deployment_target = '10.0'
 
