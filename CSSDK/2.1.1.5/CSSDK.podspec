@@ -28,6 +28,10 @@ CServiceSDK 2.1.1.5
   
   s.resources = "Framework/CSSDK/CServiceSDK.bundle"
 
+  s.resource_bundles = {
+    'CSSDK_Privacy' => ['Framework/CSSDK/CServiceSDK.xcframework/ios-arm64/**/PrivacyInfo.xcprivacy']
+  }
+
   valid_archs = ['armv7', 'armv7s', 'x86_64', 'arm64']
   s.xcconfig = {
     'VALID_ARCHS' =>  valid_archs.join(' '),
