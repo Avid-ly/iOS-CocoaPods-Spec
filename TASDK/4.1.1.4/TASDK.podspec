@@ -25,6 +25,10 @@ TraceAnalysisSDK 4.1.1.4
   s.frameworks = 'QuartzCore', 'MediaPlayer', 'CoreMedia', 'CoreGraphics', 'CFNetwork', 'WebKit', 'WatchConnectivity', 'SystemConfiguration', 'StoreKit', 'Social', 'MessageUI','JavaScriptCore','EventKit','CoreTelephony','AVFoundation','AdSupport'
 
   s.vendored_frameworks = 'Framework/TASDK/TraceAnalysisSDK.xcframework'
+  
+  s.resource_bundles = {
+    'TASDK_Privacy' => ['Framework/TASDK/TraceAnalysisSDK.xcframework/ios-arm64/**/PrivacyInfo.xcprivacy']
+  }
 
   valid_archs = ['armv7', 'armv7s', 'x86_64', 'arm64']
   s.xcconfig = {
