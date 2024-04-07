@@ -28,6 +28,10 @@ AccountSDK 2.0.0.8
   
   s.resources = "Framework/AASDK/AASAccountSDK.bundle"
 
+  s.resource_bundles = {
+    'AASDK_Privacy' => ['Framework/AASDK/AASAccount.xcframework/ios-arm64/**/PrivacyInfo.xcprivacy']
+  }
+
   s.subspec 'FBSDKLoginKit' do |facebook|
   facebook.dependency 'FBSDKLoginKit', '15.1.0'
   end
